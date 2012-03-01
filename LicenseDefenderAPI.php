@@ -27,7 +27,7 @@
             $this->request->setUsername($this->username);
             $this->request->setPassword($this->password);
             $this->request->execute();
-	    return $this->request->responseBody;
+            return $this->request->responseBody;
         }
         
         public function addLicense($domain)
