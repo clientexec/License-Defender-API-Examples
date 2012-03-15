@@ -8,8 +8,8 @@ class RestRequest {
     protected $username;
     protected $password;
     protected $acceptType;
-    public $responseBody;
-    public $responseInfo;
+    protected $responseBody;
+    protected $responseInfo;
 
     public function __construct ($url = null, $verb = 'GET', $requestBody = null)
     {
